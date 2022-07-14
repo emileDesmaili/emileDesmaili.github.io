@@ -28,13 +28,7 @@ Computer Vision, Statistical Learning, Natural Language Processing, Optimization
 **General Interests**
 ---
 
-* **Music to listen to**: [Pitchfork's](pitchfork.com) Best New Music is a good recommender system for me
-* **Music to play on the guitar** : Jazz, Jazz, Jazz! 
-* **Literature**: Modern American novels
-* **TV**: The Leftovers, Rectify, Lodge 49, Frasier, Twin Peaks Season 3
-* **Movies**: Arthouse Cinema (think, Criterion Collection)
-* **Sports**: Running, sometimes I do resistance training...
-* **Anime (you know it's serious when I list as a separate category)**: shounen, slice-of-life
+Arthouse Cinema, Anime, Jazz Guitar, Indie Music, Running, Modern American Literature
 
 
 
