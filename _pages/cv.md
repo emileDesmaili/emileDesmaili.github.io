@@ -18,23 +18,17 @@ Education
 
 Work experience
 ======
-* Fall 2022: Research Assistant
-  * Columbia University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-  
-* 2021-2022: Data Scientist
-  * Ekimetrics
+ 
+* 2021-2022: **Data Scientist** - Ekimetrics
   * Duties included: Develoment of a prototype web-app that included NLP capabilities (text summarization, sentiment classification & named-entity recognition)
 
 
   
 Skills
 ======
-* Programming: Python (OOP), R, MATLAB
-* Machine & Deep Learning: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
-* Data Viz/Web: streamlit, plotly, matplotlib, seaborn, HTML (basics), CSS (basics)
+* **Programming**: Python (OOP), R, MATLAB
+* **Machine & Deep Learning**: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
+* **Data Viz/Web**: streamlit, plotly, matplotlib, seaborn, HTML (basics), CSS (basics)
 
 
 
