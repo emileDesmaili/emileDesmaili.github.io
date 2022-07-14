@@ -11,21 +11,26 @@ redirect_from:
 
 Education
 ======
-* B.S. in Ecoonmics, Paris-Dauphine, PSL University, 2017
-* M.S. in Quantitative Finance, Paris-Dauphine, PSL University, 2020
 * M.A. in Quantitative Methods in the Social Sciences (Data Science), Columbia University, 2023
+* M.S. in Quantitative Finance, Paris-Dauphine, PSL University, 2020
+* B.S. in Mathematics, Sorbonne Université, 2024
+* B.S. in Economics, Paris-Dauphine, PSL University, 2017
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
+* Fall 2022: Research Assistant
+  * Columbia University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
+  
+  
+* 2021-2022: Data Scientist
+  * Ekimetrics
+  * Duties included: Develoment of a prototype web-app that included NLP capabilities (text summarization, sentiment classification & named-entity recognition)
+
+
+
   
 Skills
 ======
@@ -42,17 +47,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 Service and leadership
 ======
