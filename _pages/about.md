@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my personal Website!"
+title: "Emile Esmaili"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
