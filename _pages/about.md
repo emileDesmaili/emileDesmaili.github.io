@@ -19,11 +19,14 @@ I'm a student at **Columbia University** in the M.A. in QMSS, with a concentrati
 Computer Vision, Statistical Learning, Natural Language Processing, Optimization, Reinforcement Learning, Sociology
 
 
-**Education**
+**Some side projects**
 ---
-* Columbia University, M.A. in Quantitative Methods in the Social Sciences (Data Science)
-* Paris-Dauphine, PSL Research University, M.S. in Quantitative Finance
-* Paris-Dauphine, PSL Research University, B.S. in Applied Economics
+Here are some little web-apps that I developed to goof around, and mix my personal interests with data science & ML. 
+- [AReS](https://emiledesmaili-reco-system-streamlit-app-dznlyc.streamlitapp.com): an Anime Recommender System built using matrix factorization  
+![alt text](streamlit_assets/assets/app_logo.PNG)
+- []
+- [The Pitchfork Review Generator](https://share.streamlit.io/emiledesmaili/mypitchfork) 
+![alt text](streamlit_assets/assets/app_logo.PNG)
 
 **General Interests**
 ---
