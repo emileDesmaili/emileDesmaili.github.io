@@ -21,12 +21,13 @@ Computer Vision, Statistical Learning, Natural Language Processing, Optimization
 
 **Some side projects**
 ---
-Here are some little web-apps that I developed to goof around, and mix my personal interests with data science & ML. 
-- [AReS](https://emiledesmaili-reco-system-streamlit-app-dznlyc.streamlitapp.com): an Anime Recommender System built using matrix factorization  
+Here are some little projects to goof around, and mix my personal interests with data science & ML. 
+- [AReS](https://github.com/emileDesmaili/reco_system): an Anime Recommender System built using matrix factorization  
 ![alt text](images/ares_cap.JPG)
-- []
-- [The Pitchfork Review Generator](https://share.streamlit.io/emiledesmaili/mypitchfork) 
-![alt text](streamlit_assets/assets/app_logo.PNG)
+- [YugiGAN](https://github.com/emileDesmaili/bakugan): I trained a GAN on images of Yu-Gi-Oh! cards to generate new ones (not so great...)  
+![alt text](https://github.com/emileDesmaili/bakugan/data/processed/finalized_figures/Figure_6.png)
+- [The Pitchfork Review Generator](https://github.com/emileDesmaili/mypitchfork): I fine-tuned GPT-2 to generate pitchfork reviews  
+
 
 **General Interests**
 ---
