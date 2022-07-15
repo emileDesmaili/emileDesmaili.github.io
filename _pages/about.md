@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="images/musicmap.jpg" style="width:800px;height:250px;">
+<img src="images/knowledge_graph.png" style="width:800px;height:250px;">
 
 **Hello there!**
 ---
