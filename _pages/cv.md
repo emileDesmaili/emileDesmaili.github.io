@@ -33,7 +33,7 @@ Skills
 * **Programming**: Python (OOP), R, MATLAB
 * **Machine & Deep Learning**: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
 * **Data Viz/Web**: streamlit, plotly, matplotlib, seaborn, HTML (basics), CSS (basics)
-* Big Data/Cloud: SQL, Azure Databricks
+* **Big Data/Cloud**: SQL, Azure Databricks, Git
 
 
 
