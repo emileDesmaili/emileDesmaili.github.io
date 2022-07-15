@@ -48,9 +48,11 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  background-color: $blue;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    background-color: $blue;
   }
 }
