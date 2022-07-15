@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "AReS (Anime Recommender System)"
+excerpt: "A Recommender System for Anime built with Matrix Factorization<br/><img src='/images/ares_cap.PNG>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Link to repo: [AReS](https://github.com/emileDesmaili/reco_system). 
