@@ -10,14 +10,13 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background-color: $blue;
+  background-color: $primary-color;
    
   &__inner-wrap {
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
-    color: $blue;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -25,12 +24,11 @@
 
     nav {
       z-index: 10;
-      color: $blue;
     }
 
     a {
       text-decoration: none;
-      color: $blue;
+
     }
   }
 }
@@ -42,7 +40,6 @@
     padding: 0;
     clear: both;
     list-style-type: none;
-    background-color: $blue;
   }
 }
 
@@ -50,11 +47,11 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  background-color: $blue;
+
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-    background-color: $blue;
+
   }
 }
