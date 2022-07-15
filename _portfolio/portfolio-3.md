@@ -1,6 +1,6 @@
 ---
 title: "MyPitchfork"
-excerpt: "A web-app to generate fake pitchfork reviews & explore review sentiment <br/><img src='/images/yugigan_cap.png'>"
+excerpt: "A web-app to generate fake pitchfork reviews & explore review sentiment <br/>"
 collection: portfolio
 ---
 
