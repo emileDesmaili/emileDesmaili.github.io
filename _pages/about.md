@@ -25,7 +25,7 @@ Here are some little projects to goof around, and mix my personal interests with
 - [AReS](https://github.com/emileDesmaili/reco_system): an Anime Recommender System built using matrix factorization  
 ![alt text](images/ares_cap.JPG)
 - [YugiGAN](https://github.com/emileDesmaili/bakugan): I trained a GAN on images of Yu-Gi-Oh! cards to generate new ones (not so great...)  
-![alt text](https://github.com/emileDesmaili/bakugan/data/processed/finalized_figures/Figure_6.png)
+![alt text](images/yugigan_cap.png)
 - [The Pitchfork Review Generator](https://github.com/emileDesmaili/mypitchfork): I fine-tuned GPT-2 to generate pitchfork reviews  
 
 
