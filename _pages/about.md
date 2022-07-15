@@ -19,19 +19,6 @@ I'm a student at **Columbia University** in the M.A. in QMSS, with a concentrati
 Computer Vision, Statistical Learning, Natural Language Processing, Optimization, Reinforcement Learning, Sociology
 
 
-**Some side projects**
----
-Here are some little projects to goof around, and mix my personal interests with data science & ML. 
-- [AReS](https://github.com/emileDesmaili/reco_system): an Anime Recommender System built using matrix factorization  
-![image](images/ares_cap.JPG)
-- [YugiGAN](https://github.com/emileDesmaili/bakugan): I trained a GAN on images of Yu-Gi-Oh! cards to generate new ones (not so great...)  
-![image](images/yugigan_cap.png)
-- [The Pitchfork Review Generator](https://github.com/emileDesmaili/mypitchfork): I fine-tuned GPT-2 to generate pitchfork reviews  
-- [Roadtrippers](https://github.com/emileDesmaili/roadtrip_web_app): A road-trip planning web-app inspired by my California Road Trip of summer 2022  
-![image](images/roadtrippers_cap.PNG)
-
-
-
 **General Interests**
 ---
 
