@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![img](images/musicmap.jpg) 
+<img src="images/musicmap.jpg" width="1000" height="200">
 
 **Hello there!**
 ---
