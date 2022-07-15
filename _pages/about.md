@@ -7,6 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+![img](images/musicmap.png) 
+
 **Hello there!**
 ---
 
