@@ -1,11 +1,14 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+ excerpt: "About me"
+ header:
+  overlay_image: "http://cesarbarilla.github.io/images/Morningside.jpg"
+  overlay_filter: 0.6
 ---
 
 **Hello there!**
