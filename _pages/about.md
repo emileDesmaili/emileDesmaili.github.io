@@ -4,7 +4,7 @@ title: ""
 excerpt: "About me"
 header:
    overlay_image: "http://emileDesmaili.github.io/images/ocean.jpg"
-   overlay_filter: 0.3
+   overlay_filter: 0.0
 author_profile: true
 redirect_from: 
   - /about/
