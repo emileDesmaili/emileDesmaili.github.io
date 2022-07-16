@@ -9,6 +9,7 @@ redirect_from:
  header:
   overlay_image: "emiledesmaili.github.io/images/musicmap.png"
   overlay_filter: 0.6
+  
 ---
 
 **Hello there!**
