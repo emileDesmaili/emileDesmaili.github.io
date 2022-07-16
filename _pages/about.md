@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
  excerpt: "About me"
  header:
-  overlay_image: "http://cesarbarilla.github.io/images/Morningside.jpg"
+  overlay_image: "emiledesmaili.github.io/images/musicmap.png"
   overlay_filter: 0.6
 ---
 
