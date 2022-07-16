@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: "About me"
 header:
-   overlay_image: "emiledesmaili.github.io/images/Morningside.jpg"
+   overlay_image: "emileDesmaili.github.io/images/ocean.jpg"
    overlay_filter: 0.6
 author_profile: true
 redirect_from: 
