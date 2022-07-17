@@ -14,7 +14,7 @@ redirect_from:
 **Hello there!**
 ---
 
-I'm a student at **Columbia University** in the M.A. in QMSS, with a concentration in Data Science. I have a background in **Data Science**, **Financial Economics**, and **Applied Mathematics** (I'm currently doing a B.S. in Pure Mathematics at Sorbonne Université). 
+I'm curently studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Data Science**, **Financial Economics**, and **Applied Mathematics** (I'm also currently pursuing a B.S. in Mathematics at Sorbonne Université). 
 
 
 **Academic Interests**
@@ -26,7 +26,7 @@ Computer Vision, Statistical Learning, Natural Language Processing, Optimization
 **General Interests**
 ---
 
-Arthouse Cinema, Anime, Jazz Guitar, Indie Music, Running, Modern American Literature
+Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
 
 
 
