@@ -29,10 +29,11 @@ redirect_from:
   
 ## Skills
 
-* **Programming**: Python (OOP), R, MATLAB
-* **Machine & Deep Learning**: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
+* **Programming Languages**: Python (OOP), R, MATLAB
+* **Machine & Deep Learning Frameworks**: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
 * **Data Viz/Web**: streamlit, plotly, matplotlib, seaborn, HTML (basics), CSS (basics)
 * **Big Data/Cloud**: SQL, Azure Databricks, Git
+* **Natural Languages**: French, English, Farsi, German (_ein bisschen..._)
 
 
 
