@@ -41,6 +41,7 @@
     clear: both;
     list-style-type: none;
     color: $blue;
+    background-color: $blue;
   }
 }
 
@@ -49,6 +50,7 @@
   list-style-type: none;
   white-space: nowrap;
   color: $blue;
+  background-color: $blue;
 
 
   &--lg {
