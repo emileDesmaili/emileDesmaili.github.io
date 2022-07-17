@@ -10,7 +10,7 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background-color: #fff;
+  background-color: $light-red;
    
   &__inner-wrap {
     @include container;
