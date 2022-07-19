@@ -4,4 +4,4 @@ excerpt: "A webapp to play around the Spotify Dev API with my data <br/><img src
 collection: portfolio
 ---
 
-Link to Git repo: [SpotiMy](https://github.com/emileDesmaili/spotify-ml)
+Link to Git repo: [SpotiMy](https://github.com/emileDesmaili/spotify_ml)
