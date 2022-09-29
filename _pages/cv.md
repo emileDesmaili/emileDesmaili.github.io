@@ -37,7 +37,7 @@ flows
 * **Machine & Deep Learning Frameworks**: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
 * **Data Viz/Web**: streamlit, plotly, matplotlib, seaborn, HTML (basics), CSS (basics)
 * **Big Data/Cloud**: SQL, Azure Databricks, Git
-* **Natural Languages**: French, English, Farsi, German (_ein bisschen..._)
+* **Natural Languages**: French, English, Farsi, German
 
 
 
