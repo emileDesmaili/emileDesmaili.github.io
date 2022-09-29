@@ -22,7 +22,7 @@ I'm also a part-time research intern at **[NASA GISS's Center for Climate System
 **Academic Interests**
 ---
 
-Computer Vision, Statistical Learning, Natural Language Processing, Optimization, Reinforcement Learning, Bayesian Machine Learning Sociology
+Computer Vision, Natural Language Processing, Optimization, Reinforcement Learning, Bayesian Machine Learning, Sociology
 
 
 **General Interests**
