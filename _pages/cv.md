@@ -19,6 +19,10 @@ redirect_from:
 
 ## Work experience
  
+* 2022-2023: **Research Intern** - NASA Goddard Institute for Spaces Studies
+  * Graudate Researcher at NASA GISS & Columbia University's Department of Earth and Environmental Engineering, jointly supervised by Prof. Upmanu Lall and Dr. Michael Puma.
+  * Topic: Using hierarchical Bayesian models to explore the driving factors of global migration, and develop improved probabilistic projections of bilateral migration 
+flows
 * 2021-2022: **Data Scientist** - Ekimetrics
   * Development of a prototype web-app that included NLP capabilities (text summarization, sentiment classification & named-entity recognition)
   * Industrialization of a data engineering pipeline using Azure Databricks
