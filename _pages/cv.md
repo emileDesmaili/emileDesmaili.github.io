@@ -12,9 +12,9 @@ redirect_from:
 ## Education
 
 * M.A. in Quantitative Methods in the Social Sciences (Data Science), Columbia University, 2023, _in progress_
-* M.S. in Quantitative Finance, Paris-Dauphine, PSL University, 2020
+* M.S. in Financial Engineering, PSL Research University, 2020
 * B.S. in Mathematics, Sorbonne Université, _in progress_
-* B.S. in Economics, Paris-Dauphine, PSL University, 2017
+* B.S. in Economics, PSL Research University, 2017
 
 
 ## Work experience
