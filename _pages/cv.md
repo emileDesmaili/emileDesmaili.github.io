@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[a relative link](https://github.com/emileDesmaili/emileDesmaili.github.io/tree/master/files/CV.pdf "download")
+Download my full CV [here](https://github.com/emileDesmaili/emileDesmaili.github.iofiles/CV.pdf "download")
 
 
 ## Education
