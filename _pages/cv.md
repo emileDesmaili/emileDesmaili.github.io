@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+[a relative link](files/CV.pdf)
+
+
 ## Education
 
 * M.A. in Quantitative Methods in the Social Sciences (Data Science), Columbia University, 2023, _in progress_
