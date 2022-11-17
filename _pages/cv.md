@@ -20,18 +20,11 @@ Download my full CV [here](https://github.com/emileDesmaili.github.io/files/CV.p
 * B.S. in Economics, PSL Research University, 2017
 
 
-## Work experience
+## Research & Work Experience
  
 * 2022-2023: **Research Intern** - NASA Goddard Institute for Spaces Studies
-  * Graduate Researcher at NASA GISS & Columbia University's Department of Earth and Environmental Engineering, jointly supervised by Prof. Upmanu Lall and Dr. Michael Puma.
-  * Topic: Using hierarchical Bayesian models to explore the driving factors of global migration, and develop improved probabilistic projections of bilateral migration 
-flows
 * 2021-2022: **Data Scientist** - Ekimetrics
-  * Development of a prototype web-app that included NLP capabilities (text summarization, sentiment classification & named-entity recognition)
-  * Industrialization of a data engineering pipeline using Azure Databricks
 * 2020-2021: **Quant Strategist Intern** - Natixis
-  * Researched portfolio optimization with cryptocurrencies using constrained optimization and machine learning
-  * Implemented statistical arbitrage on yield curves
 
   
 ## Skills
