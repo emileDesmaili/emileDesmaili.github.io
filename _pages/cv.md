@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download my full CV [here](https://github.com/emileDesmaili.github.io/files/CV.pdf)
+Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 
 
 ## Education
