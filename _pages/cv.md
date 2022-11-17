@@ -36,10 +36,8 @@ flows
   
 ## Skills
 
-* **Programming Languages**: Python (OOP), R, MATLAB
-* **Machine & Deep Learning Frameworks**: sklearn, surprise, statsmodels, keras, tensorflow, pytorch
-* **Data Viz/Web**: streamlit, plotly, matplotlib, seaborn, HTML (basics), CSS (basics)
-* **Big Data/Cloud**: SQL, Azure Databricks, Git
+* **Programming Languages**: Python, R, MATLAB
+* **Frameworks**: PyTorch, Keras, Sciki-learn, PyMC, CVX, Git
 * **Natural Languages**: French, English, Farsi, German
 
 
