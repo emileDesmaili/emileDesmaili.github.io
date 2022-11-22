@@ -14,7 +14,7 @@ redirect_from:
 **Hello there!**
 ---
 
-I'm curently studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Applied Mathematics** and Financial Economics (I'm also currently pursuing a B.S. in Mathematics at Sorbonne Université).
+I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Applied Mathematics** and Financial Economics (I'm also currently pursuing a B.S. in Mathematics at Sorbonne Université).
 
 I'm also a part-time research intern at **[NASA GISS's Center for Climate Systems Research](https://www.giss.nasa.gov/){:target="_blank"}**, under the supervision of [Dr. Michael Puma](https://science.gsfc.nasa.gov/sed/bio/michael.j.puma){:target="_blank"} and [Prof. Upmanu Lall](http://www.columbia.edu/~ula2/){:target="_blank"}, where I study Bayesian models of bilateral migration flows
 
@@ -22,7 +22,7 @@ I'm also a part-time research intern at **[NASA GISS's Center for Climate System
 **Academic Interests**
 ---
 
-Computer Vision, Natural Language Processing, Optimization, Reinforcement Learning, Bayesian Machine Learning
+The more I study, the less I know...
 
 
 **General Interests**
