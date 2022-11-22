@@ -22,13 +22,14 @@ I'm also a part-time research intern at **[NASA GISS's Center for Climate System
 **Academic Interests**
 ---
 
-The more I study, the less I know... right now: applications of deep learning to image & sound, and pure mathematics
+The more I study, the less I know... 
+right now: applications of deep learning to image & sound, and pure mathematics
 
 
 **General Interests**
 ---
 
-Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga, _+whatever Kevin Feige is cooking with the MCU_
+Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga _+ whatever Kevin Feige is cooking with the MCU_
 
 
 
