@@ -28,7 +28,7 @@ The more I study, the less I know... Right now: applications of deep learning to
 **General Interests**
 ---
 
-Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
+Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga, _+whatever Kevin Geige is cooking with the MCU_
 
 
 
