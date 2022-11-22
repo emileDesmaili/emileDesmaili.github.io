@@ -22,7 +22,7 @@ I'm also a part-time research intern at **[NASA GISS's Center for Climate System
 **Academic Interests**
 ---
 
-The more I study, the less I know... 
+The more I study, the less I know...  
 right now: applications of deep learning to image & sound, and pure mathematics
 
 
