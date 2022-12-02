@@ -111,8 +111,23 @@ $$ f(x_1,x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1} $$
 f = lambda x: (np.exp(x[0]+3*x[1]-0.1) + np.exp(x[0]-3*x[1]-0.1) + np.exp(-x[0]-0.1))
 
 #manually derived gradient 
+
 def grad(x):
     dfdx1 = np.exp(x[0]+3*x[1]-0.1) + np.exp(x[0]-3*x[1]-0.1) - np.exp(-x[0]-0.1)
     dfdx2 = 3*np.exp(x[0]+3*x[1]-0.1) - 3*np.exp(x[0]-3*x[1]-0.1)
     return np.array([dfdx1,dfdx2])
+
+#hessian
+
+def hess(x):
+    dfdx1x1 = np.exp(x[0]+3*x[1]-0.1) + np.exp(x[0]-3*x[1]-0.1) + np.exp(-x[0]-0.1)
+    dfdx1x2 = 3*np.exp(x[0]+3*x[1]-0.1) -3*np.exp(x[0]-3*x[1]-0.1)
+    dfdx2x2 = 9*np.exp(x[0]+3*x[1]-0.1) + 9*np.exp(x[0]-3*x[1]-0.1)
+    dfdx2x1 = 3*np.exp(x[0]+3*x[1]-0.1) - 3*np.exp(x[0]-3*x[1]-0.1)
+    return np.array([[dfdx1x1,dfdx1x2],[dfdx2x1,dfdx2x2]])
 ```
+
+#### Gradient Descent plot
+
+
+#### Newton plots
