@@ -22,7 +22,13 @@ I will explain two very common descent methods for unconstrained optimization an
 
 ### Descent methods, the general principle
 
-Descent methods consist of looki
+Descent methods consist of looking for 
+
+$$x^* = argmin f(x) $$
+
+This is done by specifying a strating value, and descending in that direction
+
+$$ x^(k) = x(k-1)-t*\Delta_t $$
 
 ### Gradient Descent
 
