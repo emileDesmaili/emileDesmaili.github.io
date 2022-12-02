@@ -48,6 +48,8 @@ def backtracking_line_search(fun, x, grad, delta_x, alpha, beta):
 With gradient descent the direction is given by the gradient of the objective function, so the update at each step becomes:
 $$ x^k = x^{k-1}-t\nablaf(x^{k}) $$
 
+Tha criterion to stop is reached when $$||\nabla f(x)|| < \epsilon $$
+with $$\epsilon$$ > 0  specified by the user
 
 ### The function used
 
