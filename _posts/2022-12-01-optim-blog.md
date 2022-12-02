@@ -27,7 +27,7 @@ $$x^* = argmin f(x) $$
 
 This is done by specifying a strating value, and descending in a certain direction ($\Delta$) at a certain rate ($t$)
 
-$$ x^k = x^{k-1}-t\Delta_t $$
+$$ x^{k+1} = x^{k}-t\Delta_t $$
 
 ### Looking for t with backtracking line search
 
@@ -46,7 +46,7 @@ def backtracking_line_search(fun, x, grad, delta_x, alpha, beta):
 ### Gradient Descent
 
 With gradient descent the direction is given by the gradient of the objective function, so the update at each step becomes:
-$$ x^k = x^{k-1}-t\nablaf(x^{k}) $$
+$$ x^{k+1}= x^{k1}-t\nabla f(x^{k}) $$
 
 Tha criterion to stop is reached when $$||\nabla f(x)|| < \epsilon $$
 with $$\epsilon$$ > 0  specified by the user
