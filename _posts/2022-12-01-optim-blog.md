@@ -141,3 +141,5 @@ def hess(x):
 Here I plot the two ways of implementing Newton's method. 
 
 [](http://emileDesmaili.github.io/images/blog_optim/newton.png)
+
+As we can see, Newton's method converges faster than gradient descent
