@@ -134,10 +134,10 @@ def hess(x):
 
 #### Gradient Descent plot
 
-[](images/blog_optim/gdplot.png)
+[](http://emileDesmaili.github.io/images/blog_optim/gdplot.png)
 
 #### Newton plots
 
 Here I plot the two ways of implementing Newton's method. 
 
-[](images/blog_optim/newton.png)
+[](http://emileDesmaili.github.io/images/blog_optim/newton.png)
