@@ -152,8 +152,6 @@ As we can see, Newton's method converges faster than gradient descent
 Here is the full code used to generate the plots
 
 ```
-
-
 def compare_newtons(x0,alpha, beta, f=f,grad=grad, hess=hess):
 
     xs_newton = newton(f, x0, grad, hess, alpha, beta)
