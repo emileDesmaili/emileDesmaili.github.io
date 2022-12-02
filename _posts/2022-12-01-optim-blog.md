@@ -20,7 +20,7 @@ model = Model()
 model.fit(optimizer='gradient_descent')
 ```
 
-I will explain two very common descent methods for unconstrained optimization and implement them in python from scratch
+I will explain two very common descent methods for unconstrained optimization and implement them in python from scratch (the only libraries you need are *numpy* and *matplotlib.pyplot*)
 
 ### Descent methods, the general principle
 
@@ -115,6 +115,8 @@ def newton(fun, x0, grad, hess, alpha=0.1, beta=0.7, epsilon=1e-10, r=3):
 We will optimize the following non-quadratic function
 
 $$ f(x_1,x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1} $$
+
+Let's code the function and its first and second-order derivatives
 
 
 ``` python
