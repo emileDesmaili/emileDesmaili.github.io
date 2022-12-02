@@ -5,6 +5,8 @@ main:
     url: /cv/
   - title: "Side Projects"
     url: /portfolio/
+  - title: "Blog Posts [QMSS HW]"
+    url: /year-archive/ 
     
     
 
