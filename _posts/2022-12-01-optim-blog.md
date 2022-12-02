@@ -51,7 +51,7 @@ $$ x^{k+1}= x^{k}-t\nabla f(x^{k}) $$
 Tha criterion to stop is reached when $$||\nabla f(x)|| < \epsilon $$
 with $$\epsilon$$ > 0  specified by the user
 
-Here is the code, it returns all the values of the sequence x^{k}:
+Here is the code, it returns all the values of the sequence $x^{k}$:
 
 ```
 def gd(fun, x0, grad, alpha=0.1, beta=0.7, epsilon=1e-3):
@@ -71,7 +71,7 @@ def gd(fun, x0, grad, alpha=0.1, beta=0.7, epsilon=1e-3):
 
 Newton's method is a **second-order** method, meaning it uses more information than gradient descent which uses only the gradient, so first-order information. 
 
-Here we update the diretion using the gradient and the Hessian matrix of f. This means the algorithm converges faster (for quadratic functions, in 1 step), because it has more information when descending, but it has to invert the Hessian matrix, which is computationally intensive: O(n^3). 
+Here we update the diretion using the gradient and the Hessian matrix of f. This means the algorithm converges faster (for quadratic functions, in 1 step), because it has more information when descending, but it has to invert the Hessian matrix, which is computationally intensive - $ \O(n^3)$. To alleviate that, one could also decide ot update the descent every $r$ steps (done by adding a simple conditional statement in the code).
 
 The descent is given by:
 
@@ -84,16 +84,21 @@ $\lambda^2$ here is the Newton decrement. The formula for it is as follows:
 $$ \lambda^2 = \nabla f(x^{k})^T\nabla^2 f(x^{k})^{-1}\nabla f(x^{k}) $$
 
 ```
-def newton(fun, x0, grad, hess, alpha=0.1, beta=0.7, epsilon=1e-10):
+def newton(fun, x0, grad, hess, alpha=0.1, beta=0.7, epsilon=1e-10, r=3):
     x_new=x0
     x_=[x0]
+    i = 0
+    D = np.linalg.inv(hess(x_new)) # starting value for Dk
 
-    while np.dot((np.dot(grad(x_new).T,np.linalg.inv(hess(x_new)))),grad(x_new))/2 > epsilon:  #stopping criterion
-
-        delta_x = -np.linalg.inv(hess(x_new)) @ grad(x_new)
+    while np.dot((np.dot(grad(x_new).T,D)),grad(x_new))/2 > epsilon:  #stopping criterion
+        
+        if i % r == 0:                      # only update D modulo r
+            D = np.linalg.inv(hess(x_new))
+        delta_x = -D @ grad(x_new)
         t = backtracking_line_search(fun, x_new, grad, delta_x, alpha, beta) 
         x_new = x_new + (t * delta_x)
         x_.append(x_new)
+        i+=1
     else:
         return np.array(x_)
 
@@ -129,5 +134,10 @@ def hess(x):
 
 #### Gradient Descent plot
 
+[]('images/blog_optim/gdplot.png')
 
 #### Newton plots
+
+Here I plot the two ways of implementing Newton's method. 
+
+[]]('images/blog_optim/newton.png')
