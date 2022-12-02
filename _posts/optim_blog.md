@@ -11,13 +11,14 @@ tags:
 ### Getting inside the black box of vanilla convex Optimization
 
 for many applied data scientists, optimization is still a black box that is the magic used when calling some fitting routine
+
 '''
 model = Model()
 model.fit(optimizer='gradient_descent')
 
 '''
 
-I will explained two very common descent methods for unconstrained optimization and implement them in python from scratch
+I will explain two very common descent methods for unconstrained optimization and implement them in python from scratch
 
 ### Descent methods, the general principle
 
