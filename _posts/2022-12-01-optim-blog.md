@@ -15,7 +15,7 @@ tags:
 
 For many applied data scientists, optimization is still a black box that is the magic used when calling some fitting routine
 
-```
+``` python
 model = Model()
 model.fit(optimizer='gradient_descent')
 ```
@@ -36,7 +36,7 @@ $$ x^{k+1} = x^{k}-t\Delta_k $$
 
 the first ingredient we need is need is step size $t$. We will use the backtracking line search algorithm for that. 
 
-```
+``` python
 def backtracking_line_search(fun, x, grad, delta_x, alpha, beta):
     t = 1
     prod = grad(x).T @ delta_x
@@ -56,7 +56,7 @@ with $$\epsilon$$ > 0  specified by the user
 
 Here is the code, it returns all the values of the sequence $x^{k}$:
 
-```
+``` python
 def gd(fun, x0, grad, alpha=0.1, beta=0.7, epsilon=1e-3):
     x_new = x0
     x_ = [x0]
@@ -88,7 +88,7 @@ $\lambda^2$ here is the Newton decrement. The formula for it is as follows:
 
 $$ \lambda^2 = \nabla f(x^{k})^T\nabla^2 f(x^{k})^{-1}\nabla f(x^{k}) $$
 
-```
+``` python
 def newton(fun, x0, grad, hess, alpha=0.1, beta=0.7, epsilon=1e-10, r=3):
     x_new=x0
     x_=[x0]
@@ -117,7 +117,7 @@ We will optimize the following non-quadratic function
 $$ f(x_1,x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1} $$
 
 
-```
+``` python
 f = lambda x: (np.exp(x[0]+3*x[1]-0.1) + np.exp(x[0]-3*x[1]-0.1) + np.exp(-x[0]-0.1))
 
 #manually derived gradient 
@@ -151,7 +151,7 @@ As we can see, Newton's method converges faster than gradient descent
 
 Here is the full code used to generate the plots
 
-```
+``` python
 def compare_newtons(x0,alpha, beta, f=f,grad=grad, hess=hess):
 
     xs_newton = newton(f, x0, grad, hess, alpha, beta)
