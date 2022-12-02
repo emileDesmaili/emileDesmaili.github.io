@@ -75,7 +75,7 @@ Here we update the diretion using the gradient and the Hessian matrix of f. This
 
 The descent is given by:
 
-$$ x^{k+1} = x^{k}-t\nabla^2 f(x^{k})^-1 \nabla f(x^{k}) $$
+$$ x^{k+1} = x^{k}-t\nabla^2 f(x^{k})^{-1} \nabla f(x^{k}) $$
 
 The stopping criterion is reached when $$\lambda^2/2 < \epsilon$$
 
