@@ -8,7 +8,7 @@ tags:
   - applied math
 ---
 
-### Getting inside the black box of vanilla convex Optimization
+### Getting inside the black box of vanilla convex optimization
 
 For many applied data scientists, optimization is still a black box that is the magic used when calling some fitting routine
 
@@ -134,12 +134,12 @@ def hess(x):
 
 #### Gradient Descent plot
 
-[](http://emileDesmaili.github.io/images/blog_optim/gdplot.png)
+[gd](http://emileDesmaili.github.io/images/blog_optim/gdplot.png)
 
 #### Newton plots
 
 Here I plot the two ways of implementing Newton's method. 
 
-[](http://emileDesmaili.github.io/images/blog_optim/newton.png)
+[newton](http://emileDesmaili.github.io/images/blog_optim/newton.png)
 
 As we can see, Newton's method converges faster than gradient descent
