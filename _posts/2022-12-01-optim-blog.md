@@ -71,7 +71,7 @@ def gd(fun, x0, grad, alpha=0.1, beta=0.7, epsilon=1e-3):
 
 Newton's method is a **second-order** method, meaning it uses more information than gradient descent which uses only the gradient, so first-order information. 
 
-Here we update the diretion using the gradient and the Hessian matrix of f. This means the algorithm converges faster (for quadratic functions, in 1 step), because it has more information when descending, but it has to invert the Hessian matrix, which is computationally intensive - $ \O(n^3)$. To alleviate that, one could also decide ot update the descent every $r$ steps (done by adding a simple conditional statement in the code).
+Here we update the diretion using the gradient and the Hessian matrix of f. This means the algorithm converges faster (for quadratic functions, in 1 step), because it has more information when descending, but it has to invert the Hessian matrix, which is computationally intensive - $ \Omega(n^3)$. To alleviate that, one could also decide ot update the descent every $r$ steps (done by adding a simple conditional statement in the code).
 
 The descent is given by:
 
