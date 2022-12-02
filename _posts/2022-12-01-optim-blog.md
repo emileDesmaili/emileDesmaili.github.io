@@ -8,6 +8,9 @@ tags:
   - applied math
 ---
 
+## This Blog Post is my submission for QMSS 5021's writing exercise homework. 
+
+
 ### Getting inside the black box of vanilla convex optimization
 
 For many applied data scientists, optimization is still a black box that is the magic used when calling some fitting routine
@@ -186,5 +189,5 @@ def plot_GD(x0,alpha, beta, f=f,grad=grad):
     ax = plt.title(f"Backtracking line search GD, alpha={alpha}, beta={beta}, x*={x_star}, nsteps = {len(xs)-1}", fontsize=12)
     ax = plt.plot(xs[:, 0], xs[:, 1], 'o-', c='red')
     return ax
-    
+
 ```
