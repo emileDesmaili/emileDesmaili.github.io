@@ -27,7 +27,7 @@ $$x^* = argmin f(x) $$
 
 This is done by specifying a strating value, and descending in a certain direction ($\Delta$) at a certain rate ($t$)
 
-$$ x^{k+1} = x^{k}-t\Delta_t $$
+$$ x^{k+1} = x^{k}-t\Delta_k $$
 
 ### Looking for t with backtracking line search
 
