@@ -81,7 +81,7 @@ The stopping criterion is reached when $$\lambda^2/2 < \epsilon$$
 
 $\lambda^2$ here is the Newton decrement. The formula for it is as follows:
 
-$$ \lambda^2 = \nabla f(x^{k})^T\nabla^2 f(x^{k})^-1 nabla f(x^{k}) $$
+$$ \lambda^2 = \nabla f(x^{k})^T\nabla^2 f(x^{k})^{-1}\nabla f(x^{k}) $$
 
 ```
 def newton(fun, x0, grad, hess, alpha=0.1, beta=0.7, epsilon=1e-10):
