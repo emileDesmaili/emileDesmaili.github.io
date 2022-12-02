@@ -1,7 +1,7 @@
 ---
 title: 'Numerical Convex Optimization'
 date: 2022-12-01
-permalink: /posts/2022/12/optim8_blog/
+permalink: /posts/2022/12/optim_blog/
 tags:
   - homework
   - optimization
