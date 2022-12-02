@@ -71,7 +71,9 @@ def gd(fun, x0, grad, alpha=0.1, beta=0.7, epsilon=1e-3):
 
 Newton's method is a **second-order** method, meaning it uses more information than gradient descent which uses only the gradient, so first-order information. 
 
-Here we update the diretion using the gradient and the Hessian matrix of f. This means the algorithm converges faster (for quadratic functions, in 1 step), because it has more information when descending, but it has to invert the Hessian matrix, which is computationally intensive - $ \Omega(n^3)$. To alleviate that, one could also decide ot update the descent every $r$ steps (done by adding a simple conditional statement in the code).
+Here we update the diretion using the gradient and the Hessian matrix of f. This means the algorithm converges faster (for quadratic functions, in 1 step), because it has more information when descending, but it has to invert the Hessian matrix, which is computationally intensive - $ O(n^3)$. 
+
+To alleviate that, one could also decide ot update the descent every $r$ steps (done by adding a simple modular conditional statement in the code).
 
 The descent is given by:
 
@@ -143,3 +145,46 @@ Here I plot the two ways of implementing Newton's method.
 ![newton](http://emileDesmaili.github.io/images/blog_optim/newton.png)
 
 As we can see, Newton's method converges faster than gradient descent
+
+Here is the full code used to generate the plots
+
+```
+
+
+def compare_newtons(x0,alpha, beta, f=f,grad=grad, hess=hess):
+
+    xs_newton = newton(f, x0, grad, hess, alpha, beta)
+    xs_newton2 = newton2(f, x0, grad, hess, alpha, beta)
+    x_star = np.round(xs_newton[-1],2)
+    x1 = np.linspace(-5, 5, 100)
+    x2 = np.linspace(-2, 2, 100)
+    X1, X2 = np.meshgrid(x1, x2)
+    Z = f([X1, X2])
+    fig = plt.figure(figsize = (6,4))
+    levels = [0.1,1,2,4,9, 16, 25, 36]
+    contours = plt.contour(X1, X2, Z, levels)
+    ax = plt.clabel(contours, inline = True, fontsize = 10)
+    ax = plt.title(f"Comparing 2 Newton methods, alpha={alpha}, beta={beta}, x*={x_star}, nsteps (vanilla vs new) = {len(xs_newton)-1} vs {len(xs_newton2)-1} ", fontsize=12)
+    ax = plt.plot(xs_newton[:, 0], xs_newton[:, 1], 'o-', c='red', label='vanilla')
+    ax = plt.plot(xs_newton2[:, 0], xs_newton2[:, 1], 'o-', c='blue', label='new')
+    plt.legend()
+    return ax
+
+
+def plot_GD(x0,alpha, beta, f=f,grad=grad):
+
+    xs = gd(f, x0, grad, alpha, beta)
+    x_star = np.round(xs[-1],2)
+    x1 = np.linspace(-5, 5, 100)
+    x2 = np.linspace(-2, 2, 100)
+    X1, X2 = np.meshgrid(x1, x2)
+    Z = f([X1, X2])
+    fig = plt.figure(figsize = (6,4))
+    levels = [0.1,1,2,4,9, 16, 25, 36]
+    contours = plt.contour(X1, X2, Z, levels)
+    ax = plt.clabel(contours, inline = True, fontsize = 10)
+    ax = plt.title(f"Backtracking line search GD, alpha={alpha}, beta={beta}, x*={x_star}, nsteps = {len(xs)-1}", fontsize=12)
+    ax = plt.plot(xs[:, 0], xs[:, 1], 'o-', c='red')
+    return ax
+    
+```
