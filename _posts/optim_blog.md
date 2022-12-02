@@ -30,8 +30,18 @@ This is done by specifying a strating value, and descending in that direction
 
 $$ x^(k) = x(k-1)-t*\Delta_t $$
 
+### Looking for t with backtracking line search
+
+the first ingredient we need is need is step size $t$. We will use the backtracking line search algorithm for that. 
+
+'''
+
+
+'''
+
 ### Gradient Descent
 
+With
 
 
 
