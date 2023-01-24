@@ -20,10 +20,8 @@ I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. 
 
 **Academic Interests**
 ---
+...
 
-The more I study, the less I know...
-
-Right now: applications of deep learning to image & sound, and pure mathematics
 
 
 **General Interests**
