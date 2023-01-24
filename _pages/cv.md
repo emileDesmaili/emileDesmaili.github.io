@@ -21,12 +21,17 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 
 
 ## Research & Work Experience
- 
+
 * 2022-2023: **Research Intern** - NASA Goddard Institute for Spaces Studies
 * 2021-2022: **Data Scientist** - Ekimetrics
 * 2020-2021: **Quantitative Strategist Intern - FX Research** - Natixis
 
-  
+
+
+## Teaching Experience
+* Teaching Assistant for GR5074: Advanced Projects in Machine Learning - Columbia University
+
+
 ## Skills
 
 * **Programming Languages**: Python, R, MATLAB
