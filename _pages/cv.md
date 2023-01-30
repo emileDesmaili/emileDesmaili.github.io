@@ -29,7 +29,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 
 
 ## Teaching Experience
-* Teaching Assistant for GR5074: Advanced Projects in Machine Learning - Columbia University
+* Spring 2023: Teaching Assistant for GR5074: Advanced Projects in Machine Learning - Columbia University
 
 
 ## Skills

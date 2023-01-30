@@ -14,13 +14,13 @@ redirect_from:
 **Hello there!**
 ---
 
-I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Applied Mathematics** and Financial Economics (I'm also currently pursuing a B.S. in Mathematics at Sorbonne Université).
+I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Mathematics** and Financial Economics
 
 
 
 **Academic Interests**
 ---
-...
+Applied Mathematics, Reinforcement Learning
 
 
 
