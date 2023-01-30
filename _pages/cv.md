@@ -35,7 +35,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 ## Skills
 
 * **Programming Languages**: Python, R, MATLAB
-* **Frameworks**: PyTorch, Keras, Scikit-learn, PyMC, CVX, Git
+* **Frameworks**: PyTorch, Keras, Scikit-learn, PyMC, CVX, Git, Gym (OpenAI)
 * **Natural Languages**: French, English, Farsi, German
 
 
