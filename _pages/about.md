@@ -17,17 +17,16 @@ redirect_from:
 I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Mathematics** and Financial Economics
 
 
-
 **Academic Interests**
 ---
-Applied Mathematics, Reinforcement Learning
+Applied Mathematics, Machine Learning, Abstract Algebra
 
 
 
 **General Interests**
 ---
 
-Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga _+ whatever Kevin Feige is cooking with the MCU_
+Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
 
 
 
