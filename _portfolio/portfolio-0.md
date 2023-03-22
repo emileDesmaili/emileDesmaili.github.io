@@ -1,6 +1,6 @@
 ---
 title: "SpotiMy"
-excerpt: "A webapp to play around the Spotify Dev API with my data <br/><img src='/images/screen_spoti.PNG' width='500' height='600'>"
+excerpt: "A webapp to play around my Spotify data with their API <br/><img src='/images/screen_spoti.PNG' width='500' height='600'>"
 collection: portfolio
 ---
 
