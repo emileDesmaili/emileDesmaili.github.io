@@ -3,7 +3,8 @@ permalink: /
 title: ""
 excerpt: "About me"
 header:
-   overlay_image: "http://emileDesmaili.github.io/images/ocean.jpg"
+   overlay_images: 
+   - "http://emileDesmaili.github.io/images/ocean.jpg"
    overlay_filter: 0.0
 author_profile: true
 redirect_from: 
@@ -13,6 +14,8 @@ redirect_from:
 
 **Hello there!**
 ---
+
+![Word Cloud](/images/wordcloud.png)
 
 I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Mathematics** and Financial Economics
 
