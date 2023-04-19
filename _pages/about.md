@@ -15,16 +15,15 @@ redirect_from:
 **Hello there!**
 ---
 
-<img src="/images/wordcloud.png" alt="Word Cloud" width="500" height="300">
 
+I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). 
 
-I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Mathematics** and Financial Economics
+I have a background in **Mathematics** and Financial Economics
 
 
 **Academic Interests**
 ---
 Applied Mathematics, Machine Learning, Abstract Algebra
-
 
 
 **General Interests**
@@ -33,4 +32,4 @@ Applied Mathematics, Machine Learning, Abstract Algebra
 Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
 
 
-
+<img src="/images/wordcloud.png" alt="Word Cloud" width="500" height="300">
