@@ -15,7 +15,8 @@ redirect_from:
 **Hello there!**
 ---
 
-![Word Cloud](/images/wordcloud.png)
+<img src="/images/wordcloud.png" alt="Word Cloud" width="800" height="500">
+
 
 I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). I have a background in **Mathematics** and Financial Economics
 
