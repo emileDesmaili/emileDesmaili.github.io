@@ -31,6 +31,6 @@ Applied Mathematics, Machine Learning, Abstract Algebra
 Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
 
 
-<img src="/images/wordcloud.png" alt="Word Cloud" width="500" height="300">
+<img src="/images/wordcloud.png" alt="Word Cloud" width="400" height="500">
 
 (*Wordcloud made from unprocessed CV.pdf*)
