@@ -33,4 +33,4 @@ Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, 
 
 <img src="/images/wordcloud.png" alt="Word Cloud" width="500" height="300">
 
-(Wordcloud made from unprocessed CV.pdf)
+(*Wordcloud made from unprocessed CV.pdf*)
