@@ -1,15 +1,27 @@
 ---
-title: "DeepLite "
-excerpt: "Medical Imaging using Deep Learning <br/><img src='/files/projects/deeplite.PNG' width='500' height='600'>"
+title: "Speech and Audio Signal Processing Project (ELEN6820) "
+excerpt: "Meeting Transcription Project <br/><img src='/files/projects/ELEN6820/ELEN6820_pic.PNG' width='500' height='600'>"
 collection: portfolio
 ---
 
-Project done for the Practicum Class at Columbia with Memorial Sloan Kettering.
 
-Attempt to recreate IHC staining using Autoencoder models for segmentation and image generation.
+The Project pipeline had several components:
+- Acoustic Event Detection 
+- Speech Separation
+- Speaker Verfification
+- Automatic Speech Recogmition (LAS)
 
-- You can access the notebook here: 
-<a target="_blank" href="https://colab.research.google.com/github/emileDesmaili/DeepLIIF/blob/main/deeplite.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+Example from the pipeline: Speech Separation
 
+Mixture:
+
+<audio src="/files/projects/ELEN6820/mix.wav" controls preload></audio>
+
+Seperated speaker 1:
+
+
+<audio src="/files/projects/ELEN6820/spk1.wav" controls preload></audio>
+
+Separated speaker 2:
+
+<audio src="/files/projects/ELEN6820/spk2.wav" controls preload></audio>
