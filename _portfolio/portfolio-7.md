@@ -1,6 +1,6 @@
 ---
 title: "DeepLite "
-excerpt: "Medical Imaging using Deep Learning <br/><img src='/files/projects/deeplite.PNG' width='500' height='600'>"
+excerpt: "Medical Imaging using Deep Learning <br/><img src='/files/projects/deeplite.png' width='500' height='600'>"
 collection: portfolio
 ---
 
