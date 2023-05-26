@@ -9,7 +9,7 @@ The Project pipeline had several components:
 - Acoustic Event Detection 
 - Speech Separation
 - Speaker Verfification
-- Automatic Speech Recogmition (LAS)
+- Automatic Speech Recognition (LAS)
 
 Example from the pipeline: Speech Separation
 
@@ -17,7 +17,7 @@ Mixture:
 
 <audio src="/files/projects/ELEN6820/mix.wav" controls preload></audio>
 
-Seperated speaker 1:
+Separated speaker 1:
 
 
 <audio src="/files/projects/ELEN6820/spk1.wav" controls preload></audio>
