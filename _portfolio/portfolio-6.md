@@ -4,6 +4,14 @@ excerpt: "Meeting Transcription Project <br/><img src='/files/projects/ELEN6820/
 collection: portfolio
 ---
 
+A Meeting Transcription system
+
+Audio to transcribe:
+<audio src="/files/projects/ELEN6820/audio.wav" controls preload></audio>
+My Transcription:
+
+![](/files/projects/ELEN6820/ELEN6820_pic.PNG)
+
 
 The Project pipeline had several components:
 - Acoustic Event Detection 
