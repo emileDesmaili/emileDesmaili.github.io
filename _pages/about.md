@@ -28,7 +28,7 @@ Applied Mathematics, Machine Learning, Group Theory
 **General Interests**
 ---
 
-Arthouse Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
+Auteur Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
 
 
 <img src="/images/wordcloud.png" alt="Word Cloud" width="400" height="500">
