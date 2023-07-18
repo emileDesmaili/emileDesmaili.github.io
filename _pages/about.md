@@ -22,7 +22,7 @@ I have a background in **Mathematics** and Financial Economics
 
 **Academic Interests**
 ---
-Applied Mathematics, Machine Learning, Abstract Algebra
+Applied Mathematics, Machine Learning, Group Theory
 
 
 **General Interests**
