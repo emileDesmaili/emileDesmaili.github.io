@@ -86,7 +86,7 @@
     max-width: 175px;
     border-radius: 50%;
     object-fit: cover; /* ensures the image fills the circular shape */
-    clip-path: circle(50%);
+  
 
     @include breakpoint($large) {
       padding: 5px;
