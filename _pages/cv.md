@@ -15,7 +15,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 ## Education
 
 * M.A. in Applied Statistics & Data Science (QMSS), Columbia University
-* B.S. in Mathematics, Sorbonne Université
+* B.S. in Mathematics, Sorbonne Université (expected 2024)
 * M.S. in Financial Engineering, PSL Research University
 * B.S. in Economics, PSL Research University
 
