@@ -6,4 +6,3 @@ collection: portfolio
 
 Link to paper: [here](https://emileDesmaili.github.io/files/projects/DL4CV.pdf)
 
-This project taught me... the importance of time management! And never start 3 days before the deadline...
