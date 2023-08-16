@@ -32,8 +32,8 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 ## Teaching Experience
 
 * Fall 2023: Teaching Assistant for GR5073: Machine Learning for the Social Sciences - Columbia University
-* Fall 2023: QMSS Math Camp tutor
 * Spring 2023: Teaching Assistant for GR5074: Advanced Projects in Machine Learning - Columbia University
+* QMSS Math Camp Tutor
 
 
 ## Skills
