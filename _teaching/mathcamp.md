@@ -1,7 +1,7 @@
 ---
 title: "QMSS Math Camp"
 collection: teaching
-type: "Workshop"
+type: ""
 permalink: /teaching/mathcamp
 venue: "Columbia University"
 date: 2023-08
