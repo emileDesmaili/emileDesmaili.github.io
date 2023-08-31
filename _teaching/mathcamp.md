@@ -4,7 +4,7 @@ collection: teaching
 type: "Bootcamp"
 permalink: /teaching/mathcamp
 venue: "Columbia University"
-date: 2023-08
+date: 2023-08-31
 location: "New York, NY"
 ---
 
