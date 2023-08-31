@@ -8,7 +8,7 @@ date: 2023-08-31
 location: "New York, NY"
 ---
 
-I was instructor for the calculus section of the QMSS Math Camp. [Here are the slides](/files/mathcampEmile.pdf)
+I was the instructor for the calculus section of the QMSS Math Camp. [Here are the slides](/files/mathcampEmile.pdf)
 
 
 
