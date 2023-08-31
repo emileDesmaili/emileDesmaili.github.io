@@ -1,7 +1,7 @@
 ---
 title: "QMSS Math Camp"
 collection: teaching
-type: "Bootcamp"
+type: "Graduate course"
 permalink: /teaching/2015-spring-teaching-1
 venue: "Columbia University"
 date: 2023-08-31
