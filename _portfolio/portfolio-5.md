@@ -4,5 +4,5 @@ excerpt: "Using Denoising Diffusion Models to Generate Sheet Music <br/><img src
 collection: portfolio
 ---
 
-Link to paper: [here](https://emileDesmaili.github.io/files/projects/DL4CV.pdf)
+Link to report: [here](https://emileDesmaili.github.io/files/projects/DL4CV.pdf)
 
