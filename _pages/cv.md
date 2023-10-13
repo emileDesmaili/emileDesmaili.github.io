@@ -22,7 +22,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 
 ## Research & Work Experience
 
-* Summer 2023: **Research Intern** - Columbia University/NASA GISS
+* Summer/Fall 2023: **Research Intern** - Columbia University/NASA GISS
 * Spring 2023: **Practicum Data Scientist** - Memorial Sloan Kettering Cancer Center
 * Fall 2022: **Research Intern** - Columbia University/NASA GISS
 * 2021-2022: **Data Scientist** - Ekimetrics

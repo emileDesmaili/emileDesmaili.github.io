@@ -17,18 +17,18 @@ redirect_from:
 
 I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). 
 
-I have a background in **Mathematics** and Financial Economics
+I have a background in Mathematics and Financial Economics
 
 
 **Academic Interests**
 ---
-Applied Mathematics, Machine Learning, Group Theory
+Pure Mathematics (Topology, Group Theory, Axiomatic Set Theory), Geometric Deep Learning, Topological Data Analysis
 
 
 **General Interests**
 ---
 
-Auteur Cinema, Jazz Guitar, Indie Music, Running, Modern American Literature, Anime & Manga
+Auteur Cinema, Jazz Guitar, Indie Music, Running, Anime & Manga
 
 
 <img src="/images/wordcloud.png" alt="Word Cloud" width="400" height="500">
