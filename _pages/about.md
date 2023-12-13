@@ -22,7 +22,7 @@ I have a background in Mathematics and Financial Economics
 
 **Academic Interests**
 ---
-Pure Mathematics (Topology, Group Theory, Axiomatic Set Theory), Geometric Deep Learning, Topological Data Analysis
+Alegbra, Topology, Geometric Deep Learning, Topological Data Analysis
 
 
 **General Interests**
