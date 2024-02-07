@@ -15,14 +15,12 @@ redirect_from:
 ---
 
 
-I'm studying Applied Statistics & Data Science at **Columbia University** (M.A. in QMSS). 
-
-I have a background in Mathematics and Financial Economics
+I'm a Research Assistant at the Center for Climate Systems Research of Columbia University/NASA GISS. I have a background in Mathematics and Data Science
 
 
 **Academic Interests**
 ---
-Algebra, Topology, Geometric Deep Learning, Topological Data Analysis
+unclear
 
 
 **General Interests**

@@ -20,13 +20,11 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 * B.S. in Economics, PSL Research University
 
 
-## Research & Work Experience
+## Research Experience
 
-* Summer/Fall 2023: **Research Intern** - Columbia University/NASA GISS
+* January 2024 - August 2024: **Research Staff Assitant** - Columbia University/NASA GISS
 * Spring 2023: **Practicum Data Scientist** - Memorial Sloan Kettering Cancer Center
-* Fall 2022: **Research Intern** - Columbia University/NASA GISS
-* 2021-2022: **Data Scientist** - Ekimetrics
-* 2020-2021: **Quantitative Strategist Intern - FX Research** - Natixis
+* Sep 2022 - Dec 2023: **Research Intern** - Columbia University/NASA GISS
 
 
 ## Teaching Experience
