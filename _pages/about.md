@@ -20,7 +20,7 @@ I'm a Research Assistant at the Center for Climate Systems Research of Columbia 
 
 **Academic Interests**
 ---
-Mathematical Machine Learning
+Machine Learning, Climate Science, Data Science
 
 
 **General Interests**
