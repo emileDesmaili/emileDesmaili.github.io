@@ -20,13 +20,13 @@ I'm a Research Assistant at the Center for Climate Systems Research of Columbia 
 
 **Academic Interests**
 ---
-Climate Impact Modeling, Climate Science, Machine Learning, Data Science
+Climate Migration, Societal Impact of Climate Change, Food Security, Machine Learning
 
 
 **General Interests**
 ---
 
-Auteur Cinema, Jazz Guitar, Anime & Manga
+Indie Cinema, Jazz Guitar, Anime & Manga
 
 
 <img src="/images/wordcloud.png" alt="Word Cloud" width="400" height="500">
