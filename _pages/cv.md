@@ -22,7 +22,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 
 ## Research Experience
 
-* January 2024 - August 2024: **Research Assistant** - Columbia University/NASA GISS
+* January 2024 - June 2024: **Research Assistant** - Columbia University/NASA GISS
 * Spring 2023: **Practicum Data Scientist** - Memorial Sloan Kettering Cancer Center
 * Sep 2022 - Dec 2023: **Research Intern** - Columbia University/NASA GISS
 
