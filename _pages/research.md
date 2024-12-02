@@ -18,7 +18,7 @@ A Bayesian Hierarchical Framework for Modeling Migration Flows. Aric Cutuli, Upm
 
 ### Working papers
 Warfare Ignited Contagion Dynamics in Early Modern Europe. **Emile Esmaili**, Upmanu Lall, Michael J. Puma, Francis Ludlow, Eva Jobbova. (2024)
- [https://arxiv.org/abs/2411.18978](arxiv:2411.18978)
+ [arxiv:2411.18978](https://arxiv.org/abs/2411.18978)
 
 <img src="/files/research/contagion_paper.png" alt="contagionpaper" width="300"/>
 
