@@ -13,7 +13,7 @@ Modeling Migration Flows with Non-Homogeneous Hidden Markov Models. **Emile Esma
 <img src="/files/research/flowsmap.PNG" alt="hmmpaper" width="300"/>
 
 A Bayesian Hierarchical Framework for Modeling Migration Flows. Aric Cutuli, Upmanu Lall, Michael J. Puma, **Emile Esmaili**, Rachata Muneepeerakul. (2023). In *AGU23*.
-
+ [arxiv:2412.01242](https://arxiv.org/abs/2412.01242)
 <img src="/files/research/aric_paper.PNG" alt="bayesiampaper" width="350"/>
 
 ### Working papers
