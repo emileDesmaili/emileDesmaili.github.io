@@ -15,7 +15,9 @@ redirect_from:
 ---
 
 
-I'm a Research Assistant at the Center for Climate Systems Research of Columbia University/NASA GISS. I have a background in Mathematics and Data Science
+I'm a PhD student in [Science, Technology, and Environmental Policy (STEP)](https://cpree.princeton.edu/people/emile-esmaili) at Princeton University, advised by [Prof. Michael Oppenheimer](https://oppenheimer.scholar.princeton.edu/) and [Prof. Filiz Garip](https://sociology.princeton.edu/people/filiz-garip).  
+Before joining Princeton, I was a Research Assistant at the Center for Climate Systems Research of Columbia University/NASA GISS. I have a background in Mathematics and Data Science.
+
 
 
 **Academic Interests**
