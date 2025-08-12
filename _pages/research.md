@@ -15,7 +15,7 @@ A Bayesian Hierarchical Framework for Modeling Migration Flows. *Aric Cutuli, Up
 
 **Selected Works in Progress**
 
-ENSO increased food insecurity in Early Modern Europe. ***Emile Esmaili***, *Janavi Kumar, Michael J. Puma, Francis Ludlow, Poul Holm, Eva Jobbova, and Fredrik Charpentier Ljungqvist.* 
+ENSO increased Food Insecurity in Early Modern Europe. ***Emile Esmaili***, *Janavi Kumar, Michael J. Puma, Francis Ludlow, Poul Holm, Eva Jobbova, and Fredrik Charpentier Ljungqvist.* 
 
 Improving Subseasonal Indian Summer Monsoon Rainfall Forecasts with U-Net Calibration. ***Emile Esmaili***, *Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Haoming Deng, Aaron Kaplan, Avijit Dey, Susmitha Joseph.*
 
