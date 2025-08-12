@@ -16,16 +16,14 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 
 * PhD in Science, Technology, and Environmental Policy, Princeton University 
 * M.A. in Applied Statistics & Data Science (QMSS), Columbia University
-* M.S. in Financial Engineering, PSL Research University
 * B.S. in Mathematics, Sorbonne Université 
+* M.S. in Financial Engineering, PSL Research University
 * B.S. in Economics, PSL Research University
 
 
 ## Research Experience
 
 * January 2024 - July 2025: **Research Scientist** - Columbia University/NASA GISS
-* Spring 2023: **Practicum Data Scientist** - Memorial Sloan Kettering Cancer Center
-* Sep 2022 - Dec 2023: **Research Intern** - Columbia University/NASA GISS
 
 
 ## Teaching Experience
@@ -38,7 +36,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 ## Skills
 
 * **Programming Languages**: Python, R, MATLAB
-* **Natural Languages**: French, English, Farsi, German
+* **Natural Languages**: French, English, Farsi
 
 
 
