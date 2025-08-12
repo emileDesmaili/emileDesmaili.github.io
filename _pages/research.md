@@ -10,7 +10,7 @@ author_profile: true
 
 **Working Papers**
 
-"A Bayesian Hierarchical Framework for Modeling Migration Flows". *Aric Cutuli, Upmanu Lall, Michael J. Puma, ***Emile Esmaili***, Rachata Muneepeerakul.* [arxiv:2412.01242](https://arxiv.org/abs/2412.01242)
+A Bayesian Hierarchical Framework for Modeling Migration Flows. *Aric Cutuli, Upmanu Lall, Michael J. Puma, ***Emile Esmaili***, Rachata Muneepeerakul.* [arxiv:2412.01242](https://arxiv.org/abs/2412.01242)
 
 
 **Selected Works in Progress**
