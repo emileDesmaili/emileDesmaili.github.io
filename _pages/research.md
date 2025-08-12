@@ -22,7 +22,7 @@ Improving Subseasonal Indian Summer Monsoon Rainfall Forecasts with U-Net Calibr
 Droughts in Middle East/Arabian Peninsula: Spatiotemporal Variability, Teleconnections, and Seasonal Forecasts.*Muhammad Azhar Ehsan, ***Emile Esmaili***, Andrew W. Robertson et al.*
 
 
-Warfare Ignited Contagion Dynamics in Early Modern Europe*. ***Emile Esmaili***, Michael J. Puma, Francis Ludlow, Eva Jobbova*. [arxiv:2411.18978](https://arxiv.org/abs/2411.18978)
+Warfare Ignited Contagion Dynamics in Early Modern Europe. ***Emile Esmaili***, *Michael J. Puma, Francis Ludlow, Eva Jobbova*. [arxiv:2411.18978](https://arxiv.org/abs/2411.18978)
 
 Modeling Migration Flows with Non-Homogeneous Hidden Markov Models. ***Emile Esmaili***, *Upmanu Lall, Michael J. Puma, Aric Cutuli, Rachata Muneepeerakul*.
 
