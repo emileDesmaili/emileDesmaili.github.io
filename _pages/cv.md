@@ -17,8 +17,7 @@ Download my full CV [here](https://emileDesmaili.github.io/files/CV.pdf)
 * PhD. in Science, Technology, and Environmental Policy, Princeton University 
 * M.A. in Applied Statistics & Data Science (QMSS), Columbia University
 * B.S. in Mathematics, Sorbonne Université 
-* M.S. in Financial Engineering, PSL Research University
-* B.S. in Economics, PSL Research University
+* M.S. in Financial Engineering + B.S. in Economics, PSL Research University
 
 
 ## Research Experience
