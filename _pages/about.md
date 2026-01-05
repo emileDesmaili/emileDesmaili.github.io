@@ -22,13 +22,13 @@ Before joining Princeton, I was a Research Assistant at the Center for Climate S
 
 **Academic Interests**
 ---
-Climate Migration, Societal Impact of Climate Change, Food Security, Machine Learning
+Societal Impact of Climate, Causal Inference, Machine Learning
 
 
 **General Interests**
 ---
 
-Indie Cinema, Jazz Guitar, Anime & Manga
+Cinema, Music, Guitar, Anime & Manga
 
 
 <img src="/images/wordcloud.png" alt="Word Cloud" width="400" height="500">
