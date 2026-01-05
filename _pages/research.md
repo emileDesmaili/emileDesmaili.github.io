@@ -10,7 +10,7 @@ author_profile: true
 
 **Working Papers**
 
-*El Nino amplified food insecurity in Early Modern Europe*. Emile Esmaili, Michael J. Puma, Francis Ludlow, Eva Jobbova, Janavi Kumar, Poul Holm, Fredrik Charpentier Ljungqvist, Johannes Rom Dahl, John Alphonsus Matthews, Andrea Seim. Under review. [[preprint]](https://eartharxiv.org/repository/view/11201/)
+*El Nino amplified food insecurity in Early Modern Europe*. Emile Esmaili, Michael J. Puma, Francis Ludlow, Eva Jobbova, Janavi Kumar, Poul Holm, Fredrik Charpentier Ljungqvist, Johannes Rom Dahl, John Alphonsus Matthews, Andrea Seim. Under review. [[preprint]](https://eartharxiv.org/repository/view/11201/) [[New Scientist article]](https://www.newscientist.com/article/2509775-el-nino-was-linked-to-famines-in-europe-in-the-early-modern-period/)
 
 *Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration*. Emile Esmaili, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. Under review. [[preprint]](https://www.researchsquare.com/article/rs-7744380/v1)
 
