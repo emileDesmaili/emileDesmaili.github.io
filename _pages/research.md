@@ -19,15 +19,7 @@ author_profile: true
 **ENSO Teleconnections and Seasonal Forecasts of Wet Season Droughts in the Arabian Peninsula**. Muhammad Azhar Ehsan, Emile Esmaili, Andrew W. Robertson, Md Saquib Saharwardi, Jing Yuan, Matteo Zampieri, Thang Luong, Ibrahim Hoteit. Under review.
 [[preprint]](https://www.researchsquare.com/article/rs-8307914/v1)
 
-**A Bayesian hierarchical framework for modeling migration flows**. Aric Cutuli, Upmanu Lall, Michael J. Puma, Emile Esmaili, Rachata Muneepeerakul. 
-[[preprint]](https://arxiv.org/abs/2412.01242)
 
-**Selected Works in Progress**
-
-
-
-*Warfare Ignited Contagion Dynamics in Early Modern Europe*. Emile Esmaili, Michael J. Puma, Francis Ludlow, Eva Jobbova.
-[[preprint]](https://arxiv.org/abs/2411.18978)
 
 
 
