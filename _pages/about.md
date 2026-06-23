@@ -14,7 +14,7 @@ I am a PhD student in [Science, Technology, and Environmental Policy (STEP)](htt
 
 I study the socio-economic impacts of climate, using machine learning and causal inference to understand how environmental shocks affect human outcomes in both present-day and historical settings.
 
-ee4561[at]princeton.edu &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=IkZPUsoAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/emileDesmaili) &nbsp;·&nbsp; [CV](/files/cv/cv.pdf)
+ee4561[at]princeton.edu &nbsp;·&nbsp; [GitHub](https://github.com/emileDesmaili) &nbsp;·&nbsp; [CV](/files/cv/cv.pdf)
 
 ## Publications
 
