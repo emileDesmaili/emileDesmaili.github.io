@@ -2,6 +2,10 @@
 
 <!-- start custom head snippets -->
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -34,5 +38,52 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<style>
+  body {
+    font-family: "Inter", "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "kern", "liga", "calt";
+  }
+  .page__content {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #2a2a2a;
+  }
+  .page__content p { margin-bottom: 1.15em; }
+  .page__content h1, .page__content h2, .page__content h3 {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+  }
+  .page__content h2 {
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 1.25rem;
+  }
+  .page__content hr {
+    border: 0;
+    border-top: 1px solid #e6e6e6;
+    margin: 2em 0;
+  }
+  .page__content a {
+    color: #0e5e94;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(14, 94, 148, 0.25);
+    transition: border-color 0.15s ease;
+  }
+  .page__content a:hover {
+    border-bottom-color: #0e5e94;
+  }
+  .author__name { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600; }
+  .author__bio  { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .masthead, .greedy-nav, .greedy-nav a {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+</style>
 
 <!-- end custom head snippets -->

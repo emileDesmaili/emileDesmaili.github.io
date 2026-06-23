@@ -1,35 +1,23 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
-header:
-   overlay_image: "http://emileDesmaili.github.io/images/ocean.jpg"
-   overlay_filter: 0.0
+excerpt: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
-  - /about.html 
+  - /about.html
 ---
 
-**Hello there!**
----
+I am a PhD student in [Science, Technology, and Environmental Policy (STEP)](https://cpree.princeton.edu/people/emile-esmaili) at Princeton University, advised by [Prof. Michael Oppenheimer](https://oppenheimer.scholar.princeton.edu/) and [Prof. Filiz Garip](https://sociology.princeton.edu/people/filiz-garip). Before Princeton, I was a Research Assistant at the Center for Climate Systems Research, Columbia University / NASA GISS. I hold prior training in mathematics and data science.
 
+My research studies the societal impacts of climate, combining causal inference and machine learning with climate data to understand how environmental shocks shape human outcomes — historically and today.
 
-I'm a PhD student in [Science, Technology, and Environmental Policy (STEP)](https://cpree.princeton.edu/people/emile-esmaili) at Princeton University, advised by [Prof. Michael Oppenheimer](https://oppenheimer.scholar.princeton.edu/) and [Prof. Filiz Garip](https://sociology.princeton.edu/people/filiz-garip).  
-Before joining Princeton, I was a Research Assistant at the Center for Climate Systems Research of Columbia University/NASA GISS. I have a background in Mathematics and Data Science.
+[Email](mailto:emile.esmaili@princeton.edu) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=IkZPUsoAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/emileDesmaili) &nbsp;·&nbsp; [CV](/cv/)
 
+## Publications
 
+**Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.** Emile Esmaili, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. *Climate Dynamics*, accepted. [[preprint]](https://www.researchsquare.com/article/rs-7744380/v1)
 
-**Academic Interests**
----
-Societal Impact of Climate, Causal Inference, Machine Learning
+## Working Papers
 
-
-**General Interests**
----
-
-Cinema, Music, Guitar, Anime & Manga
-
-
-<img src="/images/wordcloud.png" alt="Word Cloud" width="400" height="500">
-
+**El Niño amplified food insecurity in Early Modern Europe.** Emile Esmaili, Michael J. Puma, Francis Ludlow, Eva Jobbova, Janavi Kumar, Poul Holm, Fredrik Charpentier Ljungqvist, Johannes Rom Dahl, John Alphonsus Matthews, Andrea Seim. *Under review.* [[preprint]](https://eartharxiv.org/repository/view/11201/)

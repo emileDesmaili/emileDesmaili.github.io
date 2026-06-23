@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Emile Esmaili"
 title_separator          : "-"
 name                     : &name "Emile Esmaili"
-description              : &description "Data Science"
+description              : &description "PhD student at Princeton University working on the societal impacts of climate."
 url                      : https://emiledesmaili.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "emiledesmaili/emiledesmaili.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Emile Esmaili"
   avatar           : "photo_studio.jpeg"
-  bio              : "PhD Student at Princeton University. "
+  bio              : "PhD Student in Science, Technology, and Environmental Policy, Princeton University."
   location         : "Princeton, NJ"
   employer         :
   pubmed           : 
