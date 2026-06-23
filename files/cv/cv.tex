@@ -1,0 +1,96 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Emile Esmaili} % Your name
+\address{Website: \href{https://emiledesmaili.github.io}{\texttt{emiledesmaili.github.io}}}
+\address{Email: \texttt{ee4561[at]princeton.edu}} % Your email
+
+\definecolor{CustomBlue}{RGB}{37,99,235}
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{CustomBlue}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\begin{document}
+
+% Education
+\begin{rSection}{Education}
+{\bf Princeton University} \hfill {\em expected 2030} \\
+Ph.D. in Science, Technology, and Environmental Policy (STEP) \\
+Advisors: {Prof. Michael Oppenheimer}, {Prof. Filiz Garip}
+
+{\bf Columbia University} \hfill {} \\
+M.A. in Quantitative Methods in the Social Sciences  (QMSS)
+
+{\bf Sorbonne Université} \hfill {} \\
+B.S. in Mathematics
+
+{\bf Université Paris-Dauphine -- PSL Research University} \hfill {} \\
+M.S. in Financial Engineering, B.S. in Economics
+
+\end{rSection}
+
+% Publications
+\begin{rSection}{Publications}
+
+\textbf{Publications}
+\begin{itemize}
+    \item \textit{Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.} \textbf{Emile Esmaili}, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. \textit{Accepted at Climate Dynamics}
+\end{itemize}
+
+\textbf{Working Papers}
+\begin{itemize}
+    \item \textit{El Ni\~no amplified food insecurity in Early Modern Europe.} \textbf{Emile Esmaili}, Michael J. Puma, Francis Ludlow, Eva Jobbova, Janavi Kumar, Poul Holm, Fredrik Charpentier Ljungqvist, Johannes Rom Dahl, John Alphonsus Matthews and Andrea Seim. \textit{Under revision at Nature Food}
+\end{itemize}
+
+
+\end{rSection}
+
+% Research Experience
+\begin{rSection}{Research Experience}
+\textbf{Research Scientist} \hfill {Jan 2024 -- Jul 2025}\\NASA Goddard Institute for Space Studies (NASA GISS) / Columbia Climate School
+
+\end{rSection}
+
+
+% Teaching Experience
+\begin{rSection}{Teaching Experience}
+\textbf{Instructor}\hfill{Fall 2023}\\{QMSS Math Camp, Columbia University}{}
+
+\textbf{Teaching Assistant}\hfill {Fall 2023}\\{GR5073: Machine Learning for the Social Sciences, Columbia University}{}
+
+\textbf{Teaching Assistant}\hfill {Spring 2023}\\{GR5074: Advanced Projects in Machine Learning, Columbia University}{}
+
+\end{rSection}
+
+
+% Referee Service
+\begin{rSection}{Referee Service}
+Nature Communications, Environmental Research Letters, Earth's Future
+
+\end{rSection}
+
+% Skills
+\begin{rSection}{Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Python, R, MATLAB \\
+Natural Languages & French, English, Farsi \\
+\end{tabular}
+\end{rSection}
+
+
+\end{document}

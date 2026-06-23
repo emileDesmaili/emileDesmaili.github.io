@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in [Science, Technology, and Environmental Policy (STEP)](https://cpree.princeton.edu/people/emile-esmaili) at Princeton University, advised by [Prof. Michael Oppenheimer](https://oppenheimer.scholar.princeton.edu/) and [Prof. Filiz Garip](https://sociology.princeton.edu/people/filiz-garip). Before Princeton, I was a Research Assistant at the Center for Climate Systems Research, Columbia University / NASA GISS. I hold prior training in mathematics and data science.
+Hello :)
 
-My research studies the societal impacts of climate, combining causal inference and machine learning with climate data to understand how environmental shocks shape human outcomes — historically and today.
+I am a PhD student in [Science, Technology, and Environmental Policy (STEP)](https://cpree.princeton.edu/people/emile-esmaili) at Princeton University, advised by [Prof. Michael Oppenheimer](https://oppenheimer.scholar.princeton.edu/) and [Prof. Filiz Garip](https://sociology.princeton.edu/people/filiz-garip). Before Princeton, I was a Research Assistant at the Center for Climate Systems Research, Columbia University / NASA GISS. I have training  in mathematics, econometrics, and data science.
 
-[Email](mailto:emile.esmaili@princeton.edu) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=IkZPUsoAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/emileDesmaili) &nbsp;·&nbsp; [CV](/cv/)
+I study the socio-economic impacts of climate, using machine learning and causal inference to understand how environmental shocks affect human outcomes in both present-day and historical settings.
+
+ee4561[at]princeton.edu &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?user=IkZPUsoAAAAJ&hl=en) &nbsp;·&nbsp; [GitHub](https://github.com/emileDesmaili) &nbsp;·&nbsp; [CV](/cv/)
 
 ## Publications
 

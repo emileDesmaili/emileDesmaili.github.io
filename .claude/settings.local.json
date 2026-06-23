@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where pdflatex *)",
+      "Bash(where xelatex *)",
+      "Bash(where lualatex *)",
+      "Bash(where latexmk *)",
+      "Bash(pdflatex -interaction=nonstopmode main.tex)",
+      "Bash(cd \"d:\\\\git\\\\emileDesmaili.github.io\\\\files\\\\cv\" && rm -f main.aux main.log main.out)",
+      "Bash(cp main.pdf \"d:\\\\git\\\\emileDesmaili.github.io\\\\files\\\\CV.pdf\")",
+      "Bash(rm -f main.aux main.log main.out main.pdf)",
+      "Bash(pdflatex -interaction=nonstopmode cv.tex)",
+      "Bash(rm -f cv.aux cv.log cv.out)"
+    ],
+    "additionalDirectories": [
+      "d:\\git\\emileDesmaili.github.io\\files\\cv"
+    ]
+  }
+}

@@ -71,18 +71,44 @@
     margin: 2em 0;
   }
   .page__content a {
-    color: #0e5e94;
+    color: #2563EB;
     text-decoration: none;
-    border-bottom: 1px solid rgba(14, 94, 148, 0.25);
+    border-bottom: 1px solid rgba(37, 99, 235, 0.25);
     transition: border-color 0.15s ease;
   }
   .page__content a:hover {
-    border-bottom-color: #0e5e94;
+    border-bottom-color: #2563EB;
   }
   .author__name { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600; }
   .author__bio  { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .masthead, .greedy-nav, .greedy-nav a {
+
+  /* Navbar */
+  .masthead {
+    background: #2563EB;
+    border-bottom: none;
+  }
+  .masthead__inner-wrap { color: #ffffff; }
+  .greedy-nav { background: transparent; }
+  .greedy-nav,
+  .greedy-nav a,
+  .greedy-nav .visible-links a,
+  .masthead__menu-item a {
+    color: #ffffff !important;
     font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .greedy-nav a:hover {
+    color: #dbeafe !important;
+  }
+  .greedy-nav .visible-links a:before {
+    background: #ffffff;
+  }
+  .greedy-nav button {
+    background: #2563EB;
+  }
+  .greedy-nav button .navicon,
+  .greedy-nav button .navicon:before,
+  .greedy-nav button .navicon:after {
+    background: #ffffff;
   }
 </style>
 
