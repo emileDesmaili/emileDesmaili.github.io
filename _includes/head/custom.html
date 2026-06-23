@@ -82,6 +82,17 @@
   .author__name { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600; }
   .author__bio  { font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+  /* Force a clean circular profile photo (was rendering oval because the source is not square) */
+  .author__avatar img {
+    width: 175px;
+    height: 175px;
+    max-width: 175px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+  }
+
   /* Navbar */
   .masthead {
     background: #2563EB;
