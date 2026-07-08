@@ -10,7 +10,8 @@
       "Bash(cp main.pdf \"d:\\\\git\\\\emileDesmaili.github.io\\\\files\\\\CV.pdf\")",
       "Bash(rm -f main.aux main.log main.out main.pdf)",
       "Bash(pdflatex -interaction=nonstopmode cv.tex)",
-      "Bash(rm -f cv.aux cv.log cv.out)"
+      "Bash(rm -f cv.aux cv.log cv.out)",
+      "Bash(cd \"d:/git/emileDesmaili.github.io/files/cv\" && rm -f cv.aux cv.log cv.out)"
     ],
     "additionalDirectories": [
       "d:\\git\\emileDesmaili.github.io\\files\\cv"

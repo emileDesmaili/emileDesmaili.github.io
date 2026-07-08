@@ -18,7 +18,7 @@ ee4561[at]princeton.edu &nbsp;·&nbsp; <a href="/files/cv/cv.pdf"><i class="fas 
 
 ## Publications
 
-**Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.** Emile Esmaili, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. *Climate Dynamics*, accepted. [[preprint]](https://www.researchsquare.com/article/rs-7744380/v1)
+**Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.** Emile Esmaili, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. *Climate Dynamics*, 2026. [[paper]](https://doi.org/10.1007/s00382-026-08286-x)
 
 ## Working Papers
 
