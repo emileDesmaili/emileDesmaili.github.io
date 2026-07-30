@@ -44,7 +44,7 @@ M.S. in Financial Engineering, B.S. in Economics
 
 ## Research Experience
 
-**2024–2025** &nbsp; NASA Goddard Institute for Space Studies (NASA GISS) / Columbia Climate School &nbsp;–&nbsp; *Research Scientist*
+**2024–2025** &nbsp; NASA Goddard Institute for Space Studies / Columbia Climate School &nbsp;–&nbsp; *Research Scientist*
 
 ## Referee Service
 
