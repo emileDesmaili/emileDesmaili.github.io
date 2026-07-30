@@ -11,10 +11,24 @@
       "Bash(rm -f main.aux main.log main.out main.pdf)",
       "Bash(pdflatex -interaction=nonstopmode cv.tex)",
       "Bash(rm -f cv.aux cv.log cv.out)",
-      "Bash(cd \"d:/git/emileDesmaili.github.io/files/cv\" && rm -f cv.aux cv.log cv.out)"
+      "Bash(cd \"d:/git/emileDesmaili.github.io/files/cv\" && rm -f cv.aux cv.log cv.out)",
+      "Bash(curl -sL -o pu.ico \"https://www.princeton.edu/favicon.ico\" -w \"%{http_code} %{content_type} %{size_download}\\\\n\")",
+      "Bash(curl -sL \"https://www.princeton.edu/\")",
+      "Bash(curl -sL -o pu-mask.svg \"https://www.princeton.edu/themes/custom/hobbes/icons/safari-pinned-tab.svg\")",
+      "Bash(curl -sL -o pu-196.png \"https://www.princeton.edu/themes/custom/hobbes/icons/favicon-196x196.png\")",
+      "Bash(curl -sL \"https://goprincetontigers.com/\")",
+      "Bash(curl -sL -o pt.ico \"https://goprincetontigers.com/favicon.ico\" -w \"%{http_code} %{size_download}\\\\n\")",
+      "Bash(python -c ' *)",
+      "Bash(curl -sL -o pu-p.svg \"https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/princeton.sidearmsports.com/images/nextgen_2022/logo_main.svg\")",
+      "Bash(pdflatex -interaction=nonstopmode -halt-on-error cv.tex)",
+      "Bash(cd \"d:/git/emileDesmaili.github.io/files/cv\" && pdflatex -interaction=nonstopmode -halt-on-error cv.tex 2>&1 | grep -i \"overfull\\\\|error\" | head -5; pdflatex -interaction=nonstopmode -halt-on-error cv.tex >/dev/null 2>&1; rm -f cv.aux cv.log cv.out; echo done)",
+      "Bash(pdftotext -layout cv.pdf -)",
+      "Bash(cd \"d:/git/emileDesmaili.github.io/files/cv\" && pdflatex -interaction=nonstopmode -halt-on-error cv.tex 2>&1 | grep -ci overfull; pdflatex -interaction=nonstopmode -halt-on-error cv.tex >/dev/null 2>&1; rm -f cv.aux cv.log cv.out; pdftotext -layout cv.pdf - 2>/dev/null | sed -n '/TEACHING/,/REFEREE/p')"
     ],
     "additionalDirectories": [
-      "d:\\git\\emileDesmaili.github.io\\files\\cv"
+      "d:\\git\\emileDesmaili.github.io\\files\\cv",
+      "D:\\git\\emileDesmaili.github.io\\files\\cv",
+      "d:\\git\\emileDesmaili.github.io"
     ]
   }
 }
