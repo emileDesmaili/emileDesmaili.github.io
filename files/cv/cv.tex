@@ -7,8 +7,7 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
 \name{Emile Esmaili} % Your name
-\address{Website: \href{https://emiledesmaili.github.io}{\texttt{emiledesmaili.github.io}}}
-\address{Email: \texttt{ee4561[at]princeton.edu}} % Your email
+% Contact block is set below \begin{document}: address flush left, links flush right
 
 \definecolor{CustomBlue}{RGB}{37,99,235}
 
@@ -26,6 +25,22 @@
 }
 
 \begin{document}
+
+% Contact: address on the left, website and email on the right
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+  \raggedright
+  School of Public and International Affairs\\
+  Princeton University\\
+  310 Robertson Hall\\
+  Princeton, New Jersey
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+  \raggedleft
+  \href{https://emiledesmaili.github.io}{\texttt{emiledesmaili.github.io}}\\
+  \texttt{ee4561[at]princeton.edu}
+\end{minipage}
+\medskip
 
 % Education
 \begin{rSection}{Education}
