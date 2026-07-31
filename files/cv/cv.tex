@@ -11,17 +11,24 @@
 
 \definecolor{CustomBlue}{RGB}{37,99,235}
 
-\renewenvironment{rSection}[1]{
-\sectionskip
-\textcolor{CustomBlue}{\MakeUppercase{#1}}
-\sectionlineskip
-\hrule
-\begin{list}{}{
-\setlength{\leftmargin}{1.5em}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=CustomBlue,
+  linkcolor=CustomBlue,
+  citecolor=CustomBlue
 }
-\item[]
-}{
-\end{list}
+
+% Section title in a left column, content to its right
+\renewenvironment{rSection}[1]{%
+\sectionskip
+\noindent\begin{minipage}[t]{0.16\textwidth}
+\raggedright\footnotesize\textbf{\MakeUppercase{#1}}
+\end{minipage}%
+\hspace{0.02\textwidth}%
+\begin{minipage}[t]{0.82\textwidth}
+\setlength{\parskip}{0.5\baselineskip}%
+}{%
+\end{minipage}\par
 }
 
 \begin{document}
@@ -62,24 +69,26 @@ M.S. in Financial Engineering, B.S. in Economics
 % Publications
 \begin{rSection}{Publications}
 
-\textbf{Publications}
-\begin{itemize}
-    \item \textit{Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.} \textbf{Emile Esmaili}, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. \textit{Climate Dynamics}, 2026. \href{https://doi.org/10.1007/s00382-026-08286-x}{doi.org/10.1007/s00382-026-08286-x}
-\end{itemize}
+\textcolor{CustomBlue}{\textit{Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.}}\\
+\underline{Emile Esmaili}, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph.\\
+\textbf{Climate Dynamics}, 2026. {\hypersetup{urlcolor=black}\href{https://doi.org/10.1007/s00382-026-08286-x}{doi.org/10.1007/s00382-026-08286-x}}
 
-\textbf{Working Papers}
-\begin{itemize}
-    \item \textit{El Ni\~no amplified food insecurity in Early Modern Europe.} \textbf{Emile Esmaili}, Michael J. Puma, Francis Ludlow, Eva Jobbova, Janavi Kumar, Poul Holm, Fredrik Charpentier Ljungqvist, Johannes Rom Dahl, John Alphonsus Matthews and Andrea Seim. \textit{Under revision at Nature Food}
-\end{itemize}
+\end{rSection}
 
+% Working Papers
+\begin{rSection}{Working Papers}
+
+\textcolor{CustomBlue}{\textit{El Ni\~no amplified food insecurity in Early Modern Europe.}}\\
+\underline{Emile Esmaili}, Michael J. Puma, Francis Ludlow, Eva Jobbova, Janavi Kumar, Poul Holm, Fredrik Charpentier Ljungqvist, Johannes Rom Dahl, John Alphonsus Matthews and Andrea Seim.\\
+Under review at \textbf{Nature Food}
 
 \end{rSection}
 
 % Teaching
 \begin{rSection}{Teaching}
-\textbf{2023} \quad QMSS Math Camp (Fall), Columbia University \hfill \textit{Instructor}\\
-\textbf{2023} \quad GR5073: Machine Learning for the Social Sciences (Fall), Columbia University \hfill \textit{TA}\\
-\textbf{2023} \quad GR5074: Advanced Projects in Machine Learning (Spring), Columbia University \hfill \textit{TA}
+\textbf{2023} \quad QMSS Math Camp (Fall), Columbia University \hspace*{\fill}\textit{Instructor}\\
+\textbf{2023} \quad GR5073: Machine Learning for the Social Sciences (Fall), Columbia University \hspace*{\fill}\textit{TA}\\
+\textbf{2023} \quad GR5074: Advanced Projects in Machine Learning (Spring), Columbia University \hspace*{\fill}\textit{TA}
 
 \end{rSection}
 
