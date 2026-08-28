@@ -34,11 +34,11 @@ M.S. in Financial Engineering, B.S. in Economics
 
 ## Teaching
 
-**2023** &nbsp; QMSS Math Camp (Fall), Columbia University &nbsp;–&nbsp; *Instructor*
+**2023** &nbsp; QMSS Math Camp, Columbia University &nbsp;–&nbsp; *Instructor*
 
-**2023** &nbsp; GR5073: Machine Learning for the Social Sciences (Fall), Columbia University &nbsp;–&nbsp; *TA*
+**2023** &nbsp; GR5073: Machine Learning for the Social Sciences, Columbia University &nbsp;–&nbsp; *TA*
 
-**2023** &nbsp; GR5074: Advanced Projects in Machine Learning (Spring), Columbia University &nbsp;–&nbsp; *TA*
+**2023** &nbsp; GR5074: Advanced Projects in Machine Learning, Columbia University &nbsp;–&nbsp; *TA*
 
 ## Research Experience
 
