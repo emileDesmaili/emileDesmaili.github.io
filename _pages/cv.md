@@ -32,9 +32,11 @@ M.S. in Financial Engineering, B.S. in Economics
 
 **Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.** Emile Esmaili, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. *Climate Dynamics*, 2026. [doi.org/10.1007/s00382-026-08286-x](https://doi.org/10.1007/s00382-026-08286-x)
 
-## Teaching
+## Workshop Papers
 
-**2023** &nbsp; QMSS Math Camp, Columbia University &nbsp;–&nbsp; *Instructor*
+**Subseasonal monsoon dynamics over South Asia revealed by the Prithvi WxC foundation model.** Haoxi Li, Mohammad Erfani, Muhammad Azhar Ehsan, Vaishnavi Kannan, Emile Esmaili, Avijit Dey, Andrew W. Robertson. *Tackling Climate Change with Machine Learning Workshop, NeurIPS*, 2026.
+
+## Teaching
 
 **2023** &nbsp; GR5073: Machine Learning for the Social Sciences, Columbia University &nbsp;–&nbsp; *TA*
 
@@ -46,9 +48,8 @@ M.S. in Financial Engineering, B.S. in Economics
 
 ## Referee Service
 
-*Nature Communications*, *Environmental Research Letters*, *Earth's Future*
+*Earth's Future*, *Environmental Research Letters*, *Nature Communications*
 
 ## Skills
 
-**Programming Languages.** Python, R, MATLAB
 **Natural Languages.** French, English, Farsi
