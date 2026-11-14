@@ -1,16 +1,2 @@
-# main links links
-main:
-
-  # - title: "CV"
-  #   url: /cv/
-  # - title: "Research"
-  #   url: /research/
-  # - title: "Teaching"
-  #   url: /teaching/
-  # - title: "Side Projects"
-  #   url: /portfolio/
-
-
-    
-    
-
+# Single-page site: no navigation tabs
+main: []
