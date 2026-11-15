@@ -109,12 +109,10 @@
   }
 
   /* Navbar */
-  /* Ocean banner: brand blue on the left dissolving into the aerial ocean photo,
-     which itself fades into the white page at the bottom. */
+  /* Ocean banner: hard-edged aerial ocean photo, lightly tinted so the white nav text stays readable. */
   .masthead {
     background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, #ffffff 100%),
-      linear-gradient(90deg, rgba(37, 99, 235, 0.95) 0%, rgba(37, 99, 235, 0.6) 35%, rgba(37, 99, 235, 0) 70%),
+      linear-gradient(rgba(8, 47, 73, 0.25), rgba(8, 47, 73, 0.25)),
       #0e7490 url("{{ base_path }}/images/ocean.jpg") center 45% / cover no-repeat;
     border-bottom: none;
   }
