@@ -10,46 +10,7 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-      {% assign avatar_src = author.avatar | prepend: "/images/" | prepend: base_path %}
-      {% assign style_count = 0 %}
-      {% capture style_items %}{% for s in site.data.portrait_styles %}{% assign hit = site.static_files | where: "path", s.file %}{% if hit.size > 0 %}{% assign style_count = style_count | plus: 1 %}{"src":{{ s.file | prepend: base_path | jsonify }},"label":{{ s.label | jsonify }}},{% endif %}{% endfor %}{% endcapture %}
-      <div class="portrait">
-        <img id="portrait-img" src="{{ avatar_src }}" class="author__avatar" alt="{{ author.name }}">
-        {% if style_count > 0 %}
-        <button type="button" class="portrait__btn" id="portrait-btn" aria-label="Show my portrait in the style of a famous painter" title="Reimagine in the style of…">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-        </button>
-        {% endif %}
-      </div>
-      {% if style_count > 0 %}
-      <p class="portrait__caption" id="portrait-caption" aria-live="polite"></p>
-      <script>
-        (function () {
-          var styles = [{"src": {{ avatar_src | jsonify }}, "label": ""}, {{ style_items | strip }}];
-          var img = document.getElementById("portrait-img");
-          var btn = document.getElementById("portrait-btn");
-          var cap = document.getElementById("portrait-caption");
-          var i = 0;
-          function preload(k) { new Image().src = styles[k % styles.length].src; }
-          btn.addEventListener("mouseenter", function () { preload(i + 1); }, { once: true });
-          btn.addEventListener("click", function () {
-            i = (i + 1) % styles.length;
-            var s = styles[i];
-            img.classList.add("is-fading");
-            var next = new Image();
-            next.onload = function () {
-              img.src = s.src;
-              img.alt = s.label ? "{{ author.name }}, in the style of " + s.label : "{{ author.name }}";
-              cap.textContent = s.label ? "in the style of " + s.label : "";
-              img.classList.remove("is-fading");
-              preload(i + 1);
-            };
-            next.onerror = function () { img.classList.remove("is-fading"); };
-            next.src = s.src;
-          });
-        })();
-      </script>
-      {% endif %}
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
 
