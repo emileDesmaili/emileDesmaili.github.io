@@ -22,6 +22,6 @@ ee4561[at]princeton.edu &nbsp;·&nbsp; <a href="/files/cv/cv.pdf"><i class="fas 
 
 **Improving subseasonal Indian summer monsoon rainfall forecasts with U-Net calibration.** Emile Esmaili, Andrew W. Robertson, Muhammad Azhar Ehsan, Bohar Singh, Aaron Kaplan, Avijit Dey, Susmitha Joseph. *Climate Dynamics*, 2026. [[paper]](https://doi.org/10.1007/s00382-026-08286-x)
 
-## Working Papers
+## Conference and Workshop Papers
 
 **Subseasonal monsoon dynamics over South Asia revealed by the Prithvi WxC foundation model.** Haoxi Li, Mohammad Erfani, Muhammad Azhar Ehsan, Vaishnavi Kannan, Emile Esmaili, Avijit Dey, Andrew W. Robertson. *Tackling Climate Change with Machine Learning Workshop, NeurIPS*, 2026.
