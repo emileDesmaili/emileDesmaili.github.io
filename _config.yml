@@ -82,7 +82,7 @@ author:
   name             : "Emile Esmaili"
   avatar           : "photo_studio.jpeg"
   bio              : "PhD student at Princeton University"
-  location         : "Paris / NYC"
+  location         :
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=IkZPUsoAAAAJ&hl=en"
