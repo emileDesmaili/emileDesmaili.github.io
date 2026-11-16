@@ -9,6 +9,18 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ base_path }}/images/princeton-shield-32.png">
 <link rel="icon" type="image/png" sizes="196x196" href="{{ base_path }}/images/princeton-shield-196.png">
 <meta name="theme-color" content="#2563EB">
+
+<script>
+  /* Apply the saved (or system) theme before the page paints, to avoid a flash */
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('theme'); } catch (e) {}
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
@@ -104,6 +116,145 @@
   .greedy-nav button .navicon:after {
     background: #ffffff;
   }
+
+  /* Theme toggle button (sits at the right edge of the navbar) */
+  .masthead__inner-wrap {
+    position: relative;
+    padding-right: 3.5em;
+  }
+  .theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    width: 2.25em;
+    height: 2.25em;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+  }
+  .theme-toggle:hover { background: rgba(255, 255, 255, 0.15); }
+  .theme-toggle:focus-visible { outline: 2px solid #ffffff; outline-offset: 2px; }
+  .theme-toggle__icon--sun { display: none; }
+  html[data-theme="dark"] .theme-toggle__icon--sun { display: inline-block; }
+  html[data-theme="dark"] .theme-toggle__icon--moon { display: none; }
+
+  /* ---------- Dark theme ---------- */
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    background: #121417;
+  }
+  html[data-theme="dark"] body {
+    background: #121417;
+    color: #c9cdd2;
+  }
+  html[data-theme="dark"] .masthead,
+  html[data-theme="dark"] .greedy-nav button {
+    background: #1e3a8a;
+  }
+  html[data-theme="dark"] .greedy-nav .hidden-links {
+    background: #1b1f24;
+    border-color: #2c3138;
+  }
+  html[data-theme="dark"] .page__content { color: #d4d7dc; }
+  html[data-theme="dark"] .page__content h1,
+  html[data-theme="dark"] .page__content h2,
+  html[data-theme="dark"] .page__content h3,
+  html[data-theme="dark"] .page__title,
+  html[data-theme="dark"] .author__name {
+    color: #f1f3f5;
+  }
+  html[data-theme="dark"] .page__content h2,
+  html[data-theme="dark"] .page__content hr,
+  html[data-theme="dark"] hr {
+    border-color: #2c3138;
+  }
+  html[data-theme="dark"] .page__content a { color: #7aa7ff; border-bottom-color: rgba(122, 167, 255, 0.3); }
+  html[data-theme="dark"] .page__content a:hover { border-bottom-color: #7aa7ff; }
+  html[data-theme="dark"] a { color: #7aa7ff; }
+  html[data-theme="dark"] .author__urls a,
+  html[data-theme="dark"] .page__footer a { color: inherit; }
+  html[data-theme="dark"] .author__bio,
+  html[data-theme="dark"] .author__urls { color: #aab0b7; }
+  html[data-theme="dark"] .author__urls {
+    background: #1b1f24;
+    border-color: #2c3138;
+  }
+  html[data-theme="dark"] .author__urls:before { border-color: #2c3138 transparent; }
+  html[data-theme="dark"] .author__urls:after { border-color: #1b1f24 transparent; }
+  html[data-theme="dark"] .btn--inverse {
+    color: #c9cdd2 !important;
+    background-color: #1b1f24;
+    border-color: #3a4048 !important;
+  }
+  html[data-theme="dark"] .btn--inverse:hover { background-color: #2c3138; }
+  html[data-theme="dark"] .page__footer {
+    background-color: #181b1f;
+    border-top-color: #2c3138;
+    color: #8f969e;
+  }
+  html[data-theme="dark"] .page__footer .fas,
+  html[data-theme="dark"] .page__footer .fab { color: #8f969e; }
+  html[data-theme="dark"] code,
+  html[data-theme="dark"] pre {
+    background: #1b1f24;
+    border-color: #2c3138;
+    color: #d4d7dc;
+  }
+  html[data-theme="dark"] table { border-color: #2c3138; }
+  html[data-theme="dark"] th { background-color: #1b1f24; }
+  html[data-theme="dark"] td,
+  html[data-theme="dark"] th { border-color: #2c3138; }
+  html[data-theme="dark"] blockquote { border-left-color: #4b5563; }
+  html[data-theme="dark"] .social-icons .fa-github,
+  html[data-theme="dark"] .social-icons .fa-github-alt,
+  html[data-theme="dark"] .social-icons .fa-github-square { color: #e6e8eb; }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('theme-toggle');
+    var meta = document.querySelector('meta[name="theme-color"]');
+
+    function apply(theme) {
+      root.setAttribute('data-theme', theme);
+      var next = theme === 'dark' ? 'light' : 'dark';
+      if (btn) {
+        btn.setAttribute('aria-label', 'Switch to ' + next + ' theme');
+        btn.setAttribute('title', 'Switch to ' + next + ' theme');
+      }
+      if (meta) meta.setAttribute('content', theme === 'dark' ? '#1e3a8a' : '#2563EB');
+    }
+
+    apply(root.getAttribute('data-theme') || 'light');
+
+    if (btn) {
+      btn.addEventListener('click', function () {
+        var theme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        try { localStorage.setItem('theme', theme); } catch (e) {}
+        apply(theme);
+      });
+    }
+
+    /* Follow the OS setting until the visitor picks a theme themselves */
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var onChange = function (e) {
+        var saved = null;
+        try { saved = localStorage.getItem('theme'); } catch (err) {}
+        if (!saved) apply(e.matches ? 'dark' : 'light');
+      };
+      if (mq.addEventListener) mq.addEventListener('change', onChange);
+      else if (mq.addListener) mq.addListener(onChange);
+    }
+  });
+</script>
 
 <!-- end custom head snippets -->
